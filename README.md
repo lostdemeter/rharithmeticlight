@@ -31,7 +31,7 @@ Our goal is to assemble empirical evidence from computations, fostering intuitio
 This work builds on exploratory ideas (e.g., zeta spacetime framings) but is original in combining empirical tests. We achieve: (1) Visual and quantitative support for analogies; (2) A narrative linking observations to RH necessity. However, we have not proven anything—results are from finite data, analogies are interpretive, and RH violations might only appear at larger scales.
 
 ## Methodology
-We conducted three experiments using Python (numpy, matplotlib) up to \( x = 10^7 \), generating primes via sieve and computing metrics. Code is available at [GitHub Repo Link, e.g., https://github.com/lostdemeter/arithmetic-light-cone-rh].
+We conducted three experiments using Python (numpy, matplotlib) up to \( x = 10^7 \), generating primes via sieve and computing metrics. Code used to generate plots located in Main.py
 
 ### Experiment A: Light-Cone Scaling
 - Compute \( F(t) \), \( G(t) = e^{-t/2} F(t) \), \( H(t) = G(t) / t^2 \) for \( t \in [2, \log(10^7)] \).
